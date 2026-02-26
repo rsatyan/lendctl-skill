@@ -1,0 +1,34 @@
+{
+  "product": "personal",
+  "borrower": {
+    "name": "Michael Chen",
+    "ssn_last4": "9012",
+    "dob": "1988-11-03",
+    "phone": "555-456-7890",
+    "email": "mchen@email.com"
+  },
+  "income": {
+    "employment": {
+      "type": "w2",
+      "employer": "Tech Startup Inc",
+      "title": "Product Manager",
+      "years_employed": 2,
+      "base_salary": 115000,
+      "bonus": 15000
+    }
+  },
+  "credit": {
+    "score": 735,
+    "monthly_debts": 1200
+  },
+  "loan": {
+    "amount": 25000,
+    "purpose": "debt_consolidation",
+    "term_months": 48,
+    "debts_to_consolidate": [
+      {"creditor": "Discover", "balance": 8500, "apr": 22.99},
+      {"creditor": "Capital One", "balance": 6200, "apr": 24.99},
+      {"creditor": "Citi", "balance": 10300, "apr": 19.99}
+    ]
+  }
+}

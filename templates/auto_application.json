@@ -1,0 +1,40 @@
+{
+  "product": "auto",
+  "borrower": {
+    "name": "Sarah Johnson",
+    "ssn_last4": "5678",
+    "dob": "1990-07-22",
+    "phone": "555-987-6543",
+    "email": "sarah.j@email.com"
+  },
+  "income": {
+    "employment": {
+      "type": "w2",
+      "employer": "State University",
+      "title": "Professor",
+      "years_employed": 5,
+      "base_salary": 78000
+    }
+  },
+  "credit": {
+    "score": 695,
+    "existing_auto_loans": 0,
+    "monthly_debts": 650
+  },
+  "vehicle": {
+    "year": 2024,
+    "make": "Honda",
+    "model": "CR-V EX-L",
+    "vin": "5J6RW2H85PL000001",
+    "msrp": 38500,
+    "purchase_price": 36000,
+    "condition": "new",
+    "mileage": 15
+  },
+  "loan": {
+    "amount": 32000,
+    "down_payment": 4000,
+    "trade_in_value": 0,
+    "term_months": 60
+  }
+}

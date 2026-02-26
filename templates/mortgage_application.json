@@ -1,0 +1,78 @@
+{
+  "product": "mortgage",
+  "loan_type": "conventional",
+  "borrower": {
+    "name": "John Smith",
+    "ssn_last4": "1234",
+    "dob": "1985-03-15",
+    "phone": "555-123-4567",
+    "email": "john.smith@email.com"
+  },
+  "income": {
+    "employment": {
+      "type": "w2",
+      "employer": "Acme Corporation",
+      "title": "Senior Engineer",
+      "years_employed": 3,
+      "base_salary": 95000,
+      "overtime": 8000,
+      "bonus": 5000
+    }
+  },
+  "credit": {
+    "scores": [742, 738, 745],
+    "representative_score": 742,
+    "tradelines": [
+      {
+        "type": "mortgage",
+        "creditor": "Wells Fargo",
+        "balance": 280000,
+        "payment": 1850,
+        "limit": null,
+        "status": "current",
+        "opened": "2020-06-15"
+      },
+      {
+        "type": "auto",
+        "creditor": "Toyota Financial",
+        "balance": 15000,
+        "payment": 450,
+        "limit": null,
+        "status": "current",
+        "opened": "2023-01-10"
+      },
+      {
+        "type": "credit_card",
+        "creditor": "Chase",
+        "balance": 3500,
+        "payment": 105,
+        "limit": 15000,
+        "status": "current",
+        "opened": "2018-09-20"
+      }
+    ]
+  },
+  "assets": {
+    "checking": 45000,
+    "savings": 120000,
+    "retirement": 185000
+  },
+  "property": {
+    "address": "123 Main Street",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90001",
+    "type": "single_family",
+    "occupancy": "primary",
+    "purchase_price": 650000,
+    "down_payment": 130000,
+    "estimated_taxes": 6500,
+    "estimated_insurance": 1800
+  },
+  "loan": {
+    "amount": 520000,
+    "term_months": 360,
+    "requested_rate": null,
+    "purpose": "purchase"
+  }
+}

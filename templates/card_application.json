@@ -1,0 +1,34 @@
+{
+  "product": "credit_card",
+  "card_type": "rewards",
+  "borrower": {
+    "name": "Emily Rodriguez",
+    "ssn_last4": "3456",
+    "dob": "1995-04-18",
+    "phone": "555-321-0987",
+    "email": "emily.r@email.com"
+  },
+  "income": {
+    "employment": {
+      "type": "w2",
+      "employer": "Marketing Agency LLC",
+      "title": "Account Manager",
+      "years_employed": 1,
+      "base_salary": 62000
+    }
+  },
+  "credit": {
+    "score": 710,
+    "existing_credit_limits": 12000,
+    "current_utilization": 35,
+    "monthly_debts": 400
+  },
+  "request": {
+    "requested_limit": null,
+    "balance_transfer": {
+      "amount": 3500,
+      "from_card": "Old Bank Card",
+      "current_apr": 21.99
+    }
+  }
+}
