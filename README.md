@@ -63,4 +63,4 @@ See [templates/](templates/) for sample application JSON files.
 
 ## License
 
-Apache-2.0 © Avatar Consulting
+Apache-2.0 © Satyan Avatara
